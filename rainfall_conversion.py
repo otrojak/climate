@@ -1,4 +1,5 @@
 """A library to perform rainfall unit conversions"""
 
-def cm_to_m(cm):
-    return cm/100
+def inches_to_mm(inches):
+    """Converts inches to mm"""
+    return inches * 25.4
